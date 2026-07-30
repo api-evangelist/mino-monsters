@@ -1,7 +1,23 @@
 aid: mino-monsters
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mino-monsters.png
 name: Mino Monsters
-description: Mino Monsters is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Mino Monsters was a mobile game company (Mino Games) surfaced as an a16z
+  portfolio company and added to the API Evangelist network as a stub. Enrichment
+  probing on 2026-07-20 found no public API surface: minomonsters.com now redirects
+  to a personal WordPress blog (minogamesonline.wordpress.com), and no api./developer.
+  subdomain resolves. No developer program, docs, OpenAPI, SDKs, or well-known
+  documents were found. Nothing to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/mino-monsters/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -20,3 +36,8 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
