@@ -30,6 +30,9 @@ description: 'Mino Monsters was a mobile game company (Mino Games) surfaced as a
   subdomain resolves. No developer program, docs, OpenAPI, SDKs, or well-known
   documents were found. Nothing to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/mino-monsters/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Enrichment probing on 2026-07-20 found no public API surface: minomonsters.com now redirects to a personal WordPress blog (minogamesonline.wordpress.com), and no api./developer. subdomain resolves."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
